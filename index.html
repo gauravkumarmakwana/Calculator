@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculator</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Calculator</title> <!-- Title of the web page -->
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Linking an external CSS file -->
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="result" readonly>
+    <h1 class="headingOne">Calculator</h1> <!-- Heading for the calculator -->
+    <div class="calculator"> <!-- Container div for the calculator -->
+        <input type="text" id="result" readonly> <!-- Input field to display the result (read-only) -->
         <table>
             <tr>
-                <td><button onclick="clearResult()">C</button></td>
-                <td><button onclick="deleteLastCharacter()"><</button></td>
-                <td><button onclick="appendToResult('/')">/</button></td>
-                <td><button onclick="appendToResult('*')">*</button></td>
+                <td><button onclick="clearResult()">C</button></td> <!-- Button to clear the result -->
+                <td><button onclick="deleteLastCharacter()"><</button></td> <!-- Button to delete the last character in the result -->
+                <td><button onclick="appendToResult('/')">/</button></td> <!-- Button to append the division operator to the result -->
+                <td><button onclick="appendToResult('*')">*</button></td> <!-- Button to append the multiplication operator to the result -->
             </tr>
             <tr>
-                <td><button onclick="appendToResult('7')">7</button></td>
-                <td><button onclick="appendToResult('8')">8</button></td>
-                <td><button onclick="appendToResult('9')">9</button></td>
-                <td><button onclick="appendToResult('-')">-</button></td>
+                <td><button onclick="appendToResult('7')">7</button></td> <!-- Button to append the number 7 to the result -->
+                <td><button onclick="appendToResult('8')">8</button></td> <!-- Button to append the number 8 to the result -->
+                <td><button onclick="appendToResult('9')">9</button></td> <!-- Button to append the number 9 to the result -->
+                <td><button onclick="appendToResult('-')">-</button></td> <!-- Button to append the subtraction operator to the result -->
             </tr>
             <tr>
-                <td><button onclick="appendToResult('4')">4</button></td>
-                <td><button onclick="appendToResult('5')">5</button></td>
-                <td><button onclick="appendToResult('6')">6</button></td>
-                <td><button onclick="appendToResult('+')">+</button></td>
+                <td><button onclick="appendToResult('4')">4</button></td> <!-- Button to append the number 4 to the result -->
+                <td><button onclick="appendToResult('5')">5</button></td> <!-- Button to append the number 5 to the result -->
+                <td><button onclick="appendToResult('6')">6</button></td> <!-- Button to append the number 6 to the result -->
+                <td><button onclick="appendToResult('+')">+</button></td> <!-- Button to append the addition operator to the result -->
             </tr>
             <tr>
-                <td><button onclick="appendToResult('1')">1</button></td>
-                <td><button onclick="appendToResult('2')">2</button></td>
-                <td><button onclick="appendToResult('3')">3</button></td>
-                <td rowspan="2"><button onclick="calculateResult()">=</button></td>
+                <td><button onclick="appendToResult('1')">1</button></td> <!-- Button to append the number 1 to the result -->
+                <td><button onclick="appendToResult('2')">2</button></td> <!-- Button to append the number 2 to the result -->
+                <td><button onclick="appendToResult('3')">3</button></td> <!-- Button to append the number 3 to the result -->
+                <td rowspan="2"><button onclick="calculateResult()">=</button></td> <!-- Button to calculate the result -->
             </tr>
             <tr>
-                <td colspan="2"><button onclick="appendToResult('0')">0</button></td>
-                <td><button onclick="appendToResult('.')">.</button></td>
+                <td colspan="2"><button onclick="appendToResult('0')">0</button></td> <!-- Button to append the number 0 to the result -->
+                <td><button onclick="appendToResult('.')">.</button></td> <!-- Button to append the decimal point to the result -->
             </tr>
         </table>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Linking an external JavaScript file -->
 </body>
 </html>

@@ -1,18 +1,18 @@
 .calculator {
-    width: 250px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
+    width: 250px; /* Sets the width of the calculator container */
+    margin: 0 auto; /* Centers the calculator horizontally using auto margins */
+    padding: 10px; /* Adds 10 pixels of padding inside the calculator container */
+    border: 1px solid #ccc; /* Applies a 1-pixel solid border with a color of #ccc */
+    text-align: center; /* Centers the content inside the calculator container */
 }
 
 table {
-    width: 100%;
-    margin-top: 10px;
+    width: 100%; /* Sets the width of the table to 100% of its container */
+    margin-top: 10px; /* Adds 10 pixels of top margin to the table */
 }
 
 button {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+    width: 50px; /* Sets the width of the button */
+    height: 50px; /* Sets the height of the button */
+    font-size: 20px; /* Sets the font size of the button's text */
 }
